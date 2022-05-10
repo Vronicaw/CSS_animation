@@ -1,0 +1,36 @@
+body {
+  background-color: #2D1A13;
+}
+div {
+  width: 297px;
+  height: 395px;
+  animation-name: flame;
+  animation-duration: 1s;
+  margin: auto;
+  margin-top: 100px;
+  animation-timing-function: ease;
+  animation-iteration-count: 4;
+  animation-delay: 1s;
+}
+
+@keyframes flame {
+  0% {background-image: url('./img/7.jpg'); background-size: 297px}
+  12% {background-image: url('./img/1.jpg'); background-size: 297px}
+  25% {background-image: url('./img/2.jpg'); background-size: 297px}
+  37% {background-image: url('./img/3.jpg'); background-size: 297px}
+  50% {background-image: url('./img/4.jpg'); background-size: 297px}
+  62% {background-image: url('./img/5.jpg'); background-size: 297px}
+  75% {background-image: url('./img/6.jpg'); background-size: 297px}
+  87% {background-image: url('./img/7.jpg'); background-size: 297px}
+  100% {background-image: url('./img/8.jpg'); background-size: 297px}
+}
+p {
+  text-align: center;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+  text-shadow: 1px 1px solid black;
+  font-size: 10px;
+}
